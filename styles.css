@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body .main {
+  width: 100%;
+}
+body .main .banner {
+  position: relative;
+}
+body .main .banner .cover {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+body .main .banner .cover img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .main .banner .options {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  padding: 0 3em;
+  transform: translateY(-50%);
+}
+body .main .banner .options .avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+}
+body .main .banner .options .avatar img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 0.4em solid #fff;
+}
+body .main .banner .options .details {
+  width: calc(100% - 200px - 0.4em);
+  display: flex;
+}
+body .main .banner .options .details .infos {
+  transform: translateY(65%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .main .banner .options .details .infos .user_details .name {
+  font-size: 1.7em;
+  font-weight: 400;
+}
+body .main .banner .options .details .infos .user_details .intro {
+  font-weight: 300;
+}
+body .main .banner .options .details .infos .buttons button {
+  font-weight: 400;
+  padding: 0.6em 1em;
+  border: none;
+  border-radius: 0.35em;
+  transition: background 0.3s ease-in;
+}
+body .main .banner .options .details .infos .buttons button:hover {
+  cursor: pointer;
+}
+body .main .banner .options .details .infos .buttons .add {
+  background: #0872B9;
+  color: #fff;
+}
+body .main .banner .options .details .infos .buttons .add:hover {
+  background: #054f81;
+}
+body .main .banner .options .details .infos .buttons .friends {
+  background: #a5a7a8;
+  color: #13141d;
+}
+body .main .banner .options .details .infos .buttons .friends:hover {
+  background: #838383;
+}/*# sourceMappingURL=styles.css.map */
